@@ -22,8 +22,8 @@ const subnets = [
 ]
 
 function genIP() {
-    const array = []
-    for (let i = 0; i < 4; i++) {
+    const array = [10, 0]
+    for (let i = 0; i < 2; i++) {
         array.push(Math.trunc(Math.random() * 256))
     }
     return array
